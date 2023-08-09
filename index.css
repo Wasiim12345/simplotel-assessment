@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS FOR THE NAVIGATION BAR */
+.hamburger-nav-bar{
+    display: none;
+}
+nav{
+    height: 50px;
+    background-color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    text-align: center;
+    margin: 1%;
+    margin-left: 10%;
+}
+.nav-items p{
+    text-decoration: none;
+    color: #312626;
+    word-spacing: 1px;
+    padding: 25px;
+    font-size: 20px;
+    display: inline;
+    cursor: pointer;
+}
+.icons{
+    margin: 1%;
+    margin-right: 5%;
+}
+.icons #phone{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.icons #shopping{
+    cursor: pointer;
+}
+
+/* CSS FOR THE HOME IMAGE */
+.home{
+    background-image: linear-gradient(to right, rgb(208, 90, 208), rgb(242, 242, 86));
+}
+.home .image img{
+    width: 100%;
+    height: 90vh;
+}
+.order{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin: 3% 0%;
+}
+
+/* CSS FOR THE ITEMS */
+.items{
+    display: flex;
+    margin: 0% 10%;
+    height: 400px;
+
+}
+.item {
+    border: 20px solid #fff;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    width: calc(33% - 20px);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-right: 60px;
+}
+.items .item img{
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 50px;
+    margin-bottom: 15px;
+}
+.items .item .content h1, p{
+    text-align: center;
+}
+
+/* CSS FOR THE BUTTON */
+.btn{
+    height: 50px;
+    color: rgb(15, 14, 14);
+    width: 12%;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(249 211 249 / 69%);
+    background-color: rgb(249 211 249 / 69%);
+    font-weight: 800;
+    margin: 2% 0% 5% 42%;
+    cursor: pointer;
+}
+
